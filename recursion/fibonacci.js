@@ -22,7 +22,7 @@ i = 9, o = 34 ; 21 + 13
 */
 
 
-function fibonacci(num) {
+var fibonacci = function (num) {
 	if (num === 0) {
 		return 0;
 	} else if (num === 1) {
@@ -31,3 +31,5 @@ function fibonacci(num) {
 		return fibonacci(num-1) + fibonacci(num-2)
 	}
 }
+
+fibonnaci(6);
